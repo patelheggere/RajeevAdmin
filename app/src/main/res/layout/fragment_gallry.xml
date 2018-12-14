@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".fragments.GallryFragment"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+   <Button
+       android:id="@+id/btn_select"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Choose Image"/>
+    <ImageView
+        android:id="@+id/iv_uploaded"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"
+        android:src="@mipmap/ic_launcher"/>
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Image"/>
+    <TextView
+        android:id="@+id/tv_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+ <EditText
+     android:id="@+id/en_et_title"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:hint="Enter Title in English"/>
+    <EditText
+        android:id="@+id/en_et_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Photo description in English"/>
+ <EditText
+     android:id="@+id/kn_et_title"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:hint="Enter Title Kannada"/>
+    <EditText
+        android:id="@+id/kn_et_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Photo description in Kannada"/>
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+</LinearLayout>
+
+</ScrollView>

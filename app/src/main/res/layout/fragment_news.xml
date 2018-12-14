@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".fragments.NewsFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/en_tv_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="News Title:"/>
+        <EditText
+            android:id="@+id/en_et_news"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type in English"/>
+        <TextView
+            android:id="@+id/kn_tv_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="News Title:"/>
+        <EditText
+            android:id="@+id/kn_et_news"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type in Kannada"/>
+
+        <TextView
+            android:id="@+id/en_tv_news_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="News Description:"/>
+        <EditText
+            android:id="@+id/en_et_news_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type in English"/>
+        <TextView
+            android:id="@+id/kn_tv_news_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="News Description:"/>
+        <EditText
+            android:id="@+id/kn_et_news_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type in Kannada"/>
+        <Button
+            android:id="@+id/btn_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Image"/>
+        <ImageView
+            android:id="@+id/iv_uploaded"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone"
+            android:src="@mipmap/ic_launcher"/>
+        <Button
+            android:id="@+id/btn_upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload Image"/>
+        <TextView
+            android:id="@+id/tv_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="URL:"/>
+        <EditText
+            android:id="@+id/et_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter if any website link"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <CheckBox
+        android:id="@+id/checkBoxNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="Send Notification"/>
+    <LinearLayout
+        android:id="@+id/linearLayoutNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subject:"/>
+        <EditText
+            android:id="@+id/en_et_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Subject"/>
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message:"/>
+        <EditText
+            android:id="@+id/et_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Message"/>
+
+</LinearLayout>
+<Button
+    android:layout_gravity="center"
+    android:id="@+id/btn_submit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Submit"/>
+    </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
+</ScrollView>

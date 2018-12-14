@@ -1,0 +1,117 @@
+{
+  "project_info": {
+    "project_number": "956340167426",
+    "firebase_url": "https://rajeev-8a4b5.firebaseio.com",
+    "project_id": "rajeev-8a4b5",
+    "storage_bucket": "rajeev-8a4b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956340167426:android:f4a9ae8b669be66f",
+        "android_client_info": {
+          "package_name": "com.patelheggere.listfeed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956340167426-ksk7tsgv2epth5videltoekrmr04qt3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC0ux9JlP513MgqA7L28oZmQoZV6G_LWY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956340167426:android:1d5a26c957622fb6",
+        "android_client_info": {
+          "package_name": "com.patelheggere.rajeevadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956340167426-4cmp6410apk408dc5tu7l3m9kr1e3kdl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.patelheggere.rajeevadmin",
+            "certificate_hash": "31f193b39e94e6b1d609010f4fe9be4db314c4a9"
+          }
+        },
+        {
+          "client_id": "956340167426-ksk7tsgv2epth5videltoekrmr04qt3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC0ux9JlP513MgqA7L28oZmQoZV6G_LWY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956340167426-ksk7tsgv2epth5videltoekrmr04qt3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956340167426:android:ecf2a77dad229699",
+        "android_client_info": {
+          "package_name": "com.patelheggere.rajeevconstituency"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956340167426-ksk7tsgv2epth5videltoekrmr04qt3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC0ux9JlP513MgqA7L28oZmQoZV6G_LWY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

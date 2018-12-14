@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RajeevAdmin</string>
+    <string name="title_home">Home</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="gallery">Gallery</string>
+    <string name="date_format">Date format</string>
+    <string name="kan_desc_error">Please Enter Kannada Description</string>
+    <string name="kan_title_error">Please Kannada enter Title</string>
+</resources>
